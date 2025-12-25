@@ -1,0 +1,40 @@
+.blog-post-card {
+  background: white;
+  border-radius: 12px;
+  width: 340px;
+  text-align: left;
+}
+
+/* Image styling */
+.post-img {
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Content area */
+.post-content {
+  padding: 16px;
+}
+
+/* Title + excerpt */
+.post-title,
+.post-excerpt {
+  color: #333;
+  margin: 8px;
+}
+
+/* Read More button */
+.read-more {
+  color: white;
+  background-color: #4a6fa5;
+  margin: 10px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.read-more:hover {
+  background-color: #35557e;
+}
