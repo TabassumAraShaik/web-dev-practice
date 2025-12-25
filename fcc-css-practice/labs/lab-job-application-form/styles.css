@@ -1,0 +1,42 @@
+/* style first input differently */
+input:first-of-type {
+  border-radius: 12px;
+}
+
+/* focus states (input + textarea — in this order) */
+input:focus,
+textarea:focus {
+  border-color: dodgerblue;
+}
+
+/* invalid states (input, select, textarea — in this order) */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
+/* valid states (input, select, textarea — in this order) */
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+
+/* submit button hover */
+button:hover {
+  background-color: slateblue;
+}
+
+/* radio button selected visual */
+.radio-group input[type="radio"]:checked {
+  border: 2px solid darkblue;
+  background-color: lavender;
+  box-shadow: 0 0 6px blue;
+}
+
+/* change associated label text color when checked */
+.radio-group input[type="radio"]:checked + span,
+.radio-group input[type="radio"]:checked ~ label {
+  color: darkblue;
+}
