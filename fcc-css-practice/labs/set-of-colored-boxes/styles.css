@@ -1,0 +1,31 @@
+body {
+  background-color: #f4f4f4;
+}
+
+/* shared box style */
+.color-box {
+  width: 120px;
+  height: 120px;
+}
+
+/* color variations */
+
+.color1 {
+  background-color: #ff5733; /* hexadecimal */
+}
+
+.color2 {
+  background-color: rgb(60, 120, 255); /* rgb */
+}
+
+.color3 {
+  background-color: gold; /* predefined color name */
+}
+
+.color4 {
+  background-color: hsl(190, 70%, 45%); /* hsl */
+}
+
+.color5 {
+  background-color: teal; /* any valid color */
+}
