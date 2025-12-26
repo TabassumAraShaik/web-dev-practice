@@ -1,0 +1,42 @@
+/* Container styling */
+.form-container {
+  background-color: #1f2233;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 400px;
+  margin: 2rem auto;
+}
+
+/* Labels */
+label {
+  margin: 0.5rem 0;
+  color: #e5e6eb;
+  display: block;
+}
+
+/* Inputs + Textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  box-sizing: border-box;
+}
+
+/* Button */
+button {
+  background-color: #5566ff;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #3946d4;
+}
