@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, system-ui, sans-serif;
+  line-height: 1.6;
+  background: #fafafa;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image responsiveness + centering requirement */
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-div {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+#tribute-info {
+  max-width: 800px;
+  margin: 25px auto;
+  text-align: left;
+}
