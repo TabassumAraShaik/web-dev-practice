@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar on the left */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  padding: 1rem;
+  background-color: #111;
+  color: #fff;
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  display: block;
+  padding: 8px 0;
+  color: #a8e3ff;
+  text-decoration: none;
+}
+
+/* Main content area */
+#main-doc {
+  margin-left: 260px;
+  padding: 1rem 2rem;
+}
+
+.main-section header {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+/* Simple media query (required) */
+@media (max-width: 700px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
